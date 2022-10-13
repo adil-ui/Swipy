@@ -96,8 +96,8 @@ header{
     background-image: url(images/background-min.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width:43%;
-    height: 73vh;
+    height: 74vh;
+    width:44%;
     margin-right: 0%;
 
 }
@@ -712,7 +712,101 @@ button{
     margin-top: 5px;
     font-size: 16px;
 }
+.les-logo{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.les-logo img{
+    margin-top: 80px;
+    width: 12%;
+    cursor: pointer;
+}
+.les-logo img:hover{
+    transform: rotate(360deg);
+    transition: .5s;
+}
 
 
+/* **********************************************************     News    ******************************************************* */
 
-/* **********************************************************     header    ******************************************************* */
+.news{
+    padding: 100px 0;
+    background-color: #e5e5e5;
+}
+.news h1{
+    color: var(--primary);
+}
+.news-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-div{
+    width: 32%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.news-div img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.news-div div{
+    border-bottom: 1px solid rgb(222, 222, 222);
+    padding-bottom: 25px;
+    width: 75%;
+    margin: auto;
+}
+.news-div span{
+    color: var(--black);
+    font-family: Poppins;
+}
+.news-div span:first-child{
+    border-right: 1px solid rgb(222, 222, 222); 
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.news-div  span i{
+    margin-right: 5px;
+}
+.news-div .para{
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: 25px;
+    color: var(--black);
+    display: block;
+}
+
+.news-div .rd-more{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 22px;
+    margin: 20px 0;
+}
+.news-div .rd-more i{
+    vertical-align: middle;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.news-div .rd-more:hover, .news-div .para:hover{
+    color: #ff7425;
+    transition: .5s;
+}
+.news-div .rd-more:hover i{
+    color: #ff7425;
+    transform: translateX(10px);
+    transition: .5s ease;
+}
+
+/* **********************************************************     Contact    ******************************************************* */
+
