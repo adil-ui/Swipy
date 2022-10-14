@@ -22,7 +22,6 @@
 
 header{
     background-image: url(images/main-bg.jpg);
-    height: 100vh;
     overflow: hidden;
     z-index: 100;
     position: relative;
@@ -216,6 +215,23 @@ button{
 }
 .button-play:hover{
     color: rgb(222, 111, 0);
+}
+.button-up{
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: var(--primary);
+    text-align: center;
+    padding: 10px 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    z-index: 999;
+}
+.button-up i{
+    color: white;
+    font-size: 18px;
 }
 
 
