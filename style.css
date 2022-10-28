@@ -92,11 +92,9 @@ header{
 }
 .header-img{
     position: relative;
-    background-image: url(images/background-min.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 74vh;
-    width:44%;
+   
+    height: 70vh;
+    width:40%;
     margin-right: 0%;
 
 }
@@ -156,6 +154,7 @@ header{
 .header-text{
     width: 55%;
     position: relative;
+    margin-top: -10%;
 }
 .cercle-vide-2{
     position: absolute;
@@ -172,8 +171,7 @@ header{
 .header-text h1{
     font-size: 90px;
     font-weight: bold;
-    margin-top: 40px;
-}
+    }
 .header-text p{
     margin: 20px 0 30px;
     line-height: 1.7;
@@ -192,6 +190,10 @@ button{
     color: white;
     font-weight: bold;
     font-size: 18px;
+    transition: .5s;
+}
+.header-text .ma-button:hover{
+    background-color: rgb(222, 111, 0);
 }
 .button-play{
     border: none;
@@ -201,6 +203,7 @@ button{
     vertical-align: middle;
     background-color: transparent;
     margin-left: 30px;
+    transition: .5s;
 }
 .button-play i{
     font-size: 26px;
@@ -209,6 +212,7 @@ button{
     border-radius: 10px;
     padding: 19px 25px 20px 28px; 
     margin-right: 15px;
+    transition: .5s;
 }
 .button-play:hover i{
     color: rgb(222, 111, 0);
@@ -228,7 +232,10 @@ button{
     width: 40px;
     border-radius: 5px;
     z-index: 999;
+    transition: 2s;
+
 }
+
 .button-up i{
     color: white;
     font-size: 18px;

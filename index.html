@@ -5,20 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_1400.css">
+    <link rel="stylesheet" href="media_1200.css">
+    <link rel="stylesheet" href="media_992.css">
+    <link rel="stylesheet" href="media_768.css">
+    <link rel="stylesheet" href="media_576.css">
     <script src="https://kit.fontawesome.com/1fa0784cd9.js" crossorigin="anonymous"></script>
     <title>Swipy</title>
 </head>
 <body>
 <!--*************************************************    header   ***************************************-->
 
-    <header>
+    <header id="header">
         <div class="header-img-abso"></div>
         <nav>
             <div class="navbar">
-                <div>
-                    <img src="images/logo.png" alt="" id="logo">
+                <div class="logo">
+                    <img src="images/logo.png" alt="" >
                 </div>
-                <div>
+                <div class="navbar_menu" id="navbar">
                     <ul>
                         <li><a href="" class="color">Home +</a></li>
                         <li><a href="">About +</a></li>
@@ -29,8 +34,8 @@
                     </ul>
                 </div>
                 <div class="search">
-                    <a href=""><img src="icones/icons8-chercher-30.png" alt="" width="28px"></a>
-                    <a href=""><img src="icones/icons8-align-52.png" alt="" class="back" width="50px"></a>
+                    <a href=""><img src="icones/icons8-chercher-30.png" alt="" width="28px" class="search"></a>
+                    <a href="#navbar"><img src="icones/icons8-align-52.png" alt="" class="back" width="50px"></a>
                 </div>
             </div>
         </nav>
@@ -53,7 +58,9 @@
             </div>
         </div>
 
-        <a href="#logo" class="button-up"><i class="fa fa-angle-up"></i></a>
+        <a href="#header" class="button-up"><i class="fa fa-angle-up"></i></a>
+
+        
         
     </header>
 
@@ -324,7 +331,7 @@
             </div>
         </section>
 
-<!--*************************************************    header   ***************************************-->
+<!--*************************************************    News   ***************************************-->
 
         <section class="news">
             <h1 class="titre-1">OUR NEWS</h1>
@@ -380,8 +387,8 @@
                         <input type="text" placeholder="Your Website"><br>
                         <textarea name="" id="" rows="3" placeholder="Your Message Here"></textarea><br>
                         <button class="ma-button">SUBMIT NOW</button>
-                        <i class="fa-solid fa-phone"></i>
-                        <span>(+088)589-8745</span>
+                        
+                        <span><i class="fa-solid fa-phone"></i> (+088)589-8745</span>
                     </form>
                     <img src="images/slide-img2.png" alt="" class="cercle-color">
                 </div>
