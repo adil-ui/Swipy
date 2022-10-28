@@ -57,7 +57,7 @@
     .header-container{
         width: 90%;
         margin: auto;
-        height: 80vh;
+        height: 90vh;
         display: flex;
         flex-direction: column;
     }
@@ -66,18 +66,18 @@
     }
     .header-text h1{
         font-size: 36px;
-        margin-top: 30%;
+        margin-top: 5%;
         line-height: 1.2;
     }
     .header-text p{
-        margin: 5% 0 7%;
+        margin: 5% 0;
         font-size: 16px;
     }
     .header-img{
         position: relative;
         background-image: none;
-        width: 45%;
-        margin-top: 15%;
+        width: 40%;
+        margin-top: 0%;
     
     }
     .ma-button{
